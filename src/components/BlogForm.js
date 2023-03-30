@@ -11,13 +11,13 @@ export class BlogForm extends Component {
     }
     onTitleChange = (e) => {
         const title = e.target.value;
-        this.setState({} = ({
+        this.setState(() => ({
             title
         }))
     }
     onDescriptionChange = (e) => {
         const description = e.target.value;
-        this.setState({} = ({
+        this.setState(() => ({
             description
         }))
 

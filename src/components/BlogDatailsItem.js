@@ -1,11 +1,11 @@
 import React from 'react'
 
-const BlogDatailsItem = ({ id, title, description }) => {
+const BlogDatailsItem = ({ blog }) => {
     return (
         <div>
-            <p>Blog id: {id}</p>
-            <p>Blog title: {title}</p>
-            <p>Blog description: {description}</p>
+            <p>Blog id: {blog.id}</p>
+            <p>Blog title: {blog.title}</p>
+            <p>Blog description: {blog.description}</p>
         </div>
     )
 }
